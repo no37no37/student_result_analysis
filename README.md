@@ -92,6 +92,8 @@ sns.heatmap(gb1, annot=True)
 plt.title("Relationship between Parent's Marital Status and Student's Score")
 plt.show()
 ```
+![image](https://github.com/no37no37/student_result_analysis/assets/132648428/51d8925a-9d8d-4e6f-97ae-d4ed2eff49c1)
+
 
 ### Boxplots for Scores
 
@@ -121,8 +123,6 @@ ethnic_counts = df["EthnicGroup"].value_counts()
 plt.pie(ethnic_counts, labels=ethnic_counts.index, autopct="%1.2f%%")
 plt.title("Distribution of Ethnic Groups")
 plt.show()
-
-![Screenshot 2023-11-30 230832](https://github.com/no37no37/student_result_analysis/assets/132648428/e6ebe486-957d-4596-8fd4-8cbeb54e5be0)
 
 # Count plot
 ax = sns.countplot(data=df, x="EthnicGroup")
