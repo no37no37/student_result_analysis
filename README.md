@@ -122,7 +122,8 @@ plt.pie(ethnic_counts, labels=ethnic_counts.index, autopct="%1.2f%%")
 plt.title("Distribution of Ethnic Groups")
 plt.show()
 
-![image](https://github.com/no37no37/student_result_analysis/assets/132648428/67b3fd41-2c1e-43c0-b8b4-3e21743c4a62)
+![image](https://github.com/no37no37/student_result_analysis/assets/132648428/c54c7196-ccc0-4bae-96a0-6adb2590901e)
+
 
 # Count plot
 ax = sns.countplot(data=df, x="EthnicGroup")
