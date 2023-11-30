@@ -120,11 +120,13 @@ ethnic_counts = df["EthnicGroup"].value_counts()
 plt.pie(ethnic_counts, labels=ethnic_counts.index, autopct="%1.2f%%")
 plt.title("Distribution of Ethnic Groups")
 plt.show()
+![image](https://github.com/no37no37/student_result_analysis/assets/132648428/67b3fd41-2c1e-43c0-b8b4-3e21743c4a62)
 
 # Count plot
 ax = sns.countplot(data=df, x="EthnicGroup")
 ax.bar_label(ax.containers[0])
 plt.show()
 ```
+![image](https://github.com/no37no37/student_result_analysis/assets/132648428/525a7fab-7cf1-4ab0-8652-7da3275bb249)
 
 In summary, the "Student Result Analysis" project provides a comprehensive exploration of student data, uncovering insights into various factors influencing academic performance. The use of Python and powerful libraries facilitates effective data manipulation and visualization for a meaningful analysis.
