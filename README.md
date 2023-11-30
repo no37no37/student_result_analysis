@@ -57,6 +57,8 @@ ax = sns.countplot(data=df, x="Gender")
 ax.bar_label(ax.containers[0])
 plt.show()
 ```
+![image](https://github.com/no37no37/student_result_analysis/assets/132648428/aad4f522-03a7-4304-933c-80ba8a526acf)
+
 
 ### Parent's Education and Student's Score Relationship
 
