@@ -74,6 +74,8 @@ sns.heatmap(gb, annot=True)
 plt.title("Relationship between Parent's Education and Student's Score")
 plt.show()
 ```
+![image](https://github.com/no37no37/student_result_analysis/assets/132648428/d084e209-bf07-4e67-8172-f8db17c50d5d)
+
 
 ### Parent Marital Status and Student's Score Relationship
 
