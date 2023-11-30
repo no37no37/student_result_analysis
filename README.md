@@ -57,6 +57,7 @@ ax = sns.countplot(data=df, x="Gender")
 ax.bar_label(ax.containers[0])
 plt.show()
 ```
+
 ![image](https://github.com/no37no37/student_result_analysis/assets/132648428/aad4f522-03a7-4304-933c-80ba8a526acf)
 
 
@@ -120,6 +121,7 @@ ethnic_counts = df["EthnicGroup"].value_counts()
 plt.pie(ethnic_counts, labels=ethnic_counts.index, autopct="%1.2f%%")
 plt.title("Distribution of Ethnic Groups")
 plt.show()
+
 ![image](https://github.com/no37no37/student_result_analysis/assets/132648428/67b3fd41-2c1e-43c0-b8b4-3e21743c4a62)
 
 # Count plot
