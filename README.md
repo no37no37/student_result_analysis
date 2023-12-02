@@ -36,7 +36,7 @@ df = df.drop("Unnamed: 0", axis=1)
 
 ## Data Transformation
 
-The project involves transforming the data, specifically in the "WklyStudyHours" column. The code snippet below replaces a specific string, enhancing the clarity of the data.
+The project involves transforming the data, specifically in the "WklyStudyHours" column. The code snippet below replaces a specific string, enhancing the clarity of the data
 
 ```python
 # Change weekly study hours column
